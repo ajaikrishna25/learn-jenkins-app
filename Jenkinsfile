@@ -40,7 +40,7 @@ pipeline{
     post{
         always{
             echo "post section"
-           // junit 'test-results/junit.xml'
+            junit 'test-results/junit.xml'
         }
     }
 }
